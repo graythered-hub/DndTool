@@ -10,8 +10,12 @@ namespace DndModels
     {
         public Guid id;
         public string? Name;
-        public int Initiative;
         public int InitiativeBonus;
+        public CreatureType? CreatureType;
+        public Alignment? Alignment;
+        public List<Sense>? Senses;
+        public string MovementSpeeds;
+        public Size Size;
         public string? Description;
         public int? MaxHP;
         public int? CurrentHP;
@@ -23,7 +27,8 @@ namespace DndModels
         public int? IntSave;
         public int? ChaSave;
         public bool? IsConcentrating;
-        public List<NpcAttack>? attacks;
+        public List<NpcAction>? Actions;
+        
 
         public Npc()
         {
@@ -32,21 +37,26 @@ namespace DndModels
 
     }
 
-    public class NpcAttack
+    public abstract class NpcAction
     {
-        public string Name;
+        public string Name = "Action";
+        public string? Description;
+        public ActionType ActionType;
+    }
+
+    public class NpcAttack : NpcAction
+    {
         public AttackType Type;
         public int AttackValue;
         public DamageType DamageType;
-        public int DamageValue;
+        public string DamageValue;
         public bool Concentration;
-        public string? Description;
+        public string Distance;
 
-        public NpcAttack(string name)
+        public NpcAttack()
         {
-            Name = name;
         }
-        public NpcAttack(string name, AttackType attackType, int attackValue, DamageType damageType, int damageValue, bool concentration, string description)
+        public NpcAttack(string name, AttackType attackType, int attackValue, DamageType damageType, string damageValue, bool concentration, string description)
         {
             this.Name = name;
             this.Type = attackType;
@@ -56,6 +66,11 @@ namespace DndModels
             this.Concentration = concentration;
             this.Description = description;
         }
+    }
+
+    public class NpcNonAttack : NpcAction
+    {
+        public NpcNonAttack() { } 
     }
 
     public enum AttackType {
@@ -68,5 +83,66 @@ namespace DndModels
         Deafness,
         Disadvantage
     }
+
+    public enum ActionType
+    {
+        Action,
+        BonusAction,
+        Reaction
+    }
+
+    public enum CreatureType
+    {
+        Aberration,
+        Beast,
+        Celestial,
+        Construct,
+        Dragon,
+        Elemental,
+        Fey,
+        Fiend,
+        Giant,
+        Humanoid,
+        Monstrosity,
+        Ooze,
+        Plant,
+        Undead,
+    }
     
+    public class Sense
+    {
+        public SenseType Type;
+        public string Distance = "";
+    }
+
+    public enum SenseType
+    {
+        Blindsight,
+        Darkvision,
+        Truesight,
+        Tremorsense
+    }
+
+    public enum Size
+    {
+        Tiny,
+        Small,
+        Medium,
+        Large,
+        Huge,
+        Gargantuan
+    }
+
+    public enum Alignment
+    {
+        LawfulGood,
+        LawfulEvil,
+        LawfulNeutral,
+        NeutralGood,
+        NeutralEvil,
+        TrueNeutral,
+        ChaoticGood,
+        ChaoticEvil,
+        ChatoicNeutral
+    }
 }

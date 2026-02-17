@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\source\\DndTool\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFA07402-BF9A-4EE0-ADA5-5E24FD0F7195}|DndCombatHelper\\DndCombatHelper.csproj|c:\\source\\dndtool\\dndcombathelper\\components\\pages\\npcpartial.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFA07402-BF9A-4EE0-ADA5-5E24FD0F7195}|DndCombatHelper\\DndCombatHelper.csproj|solutionrelative:dndcombathelper\\components\\pages\\npcpartial.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFA07402-BF9A-4EE0-ADA5-5E24FD0F7195}|DndCombatHelper\\DndCombatHelper.csproj|c:\\source\\dndtool\\dndcombathelper\\components\\pages\\enemies.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFA07402-BF9A-4EE0-ADA5-5E24FD0F7195}|DndCombatHelper\\DndCombatHelper.csproj|solutionrelative:dndcombathelper\\components\\pages\\enemies.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFA07402-BF9A-4EE0-ADA5-5E24FD0F7195}|DndCombatHelper\\DndCombatHelper.csproj|c:\\source\\dndtool\\dndcombathelper\\data\\testdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFA07402-BF9A-4EE0-ADA5-5E24FD0F7195}|DndCombatHelper\\DndCombatHelper.csproj|solutionrelative:dndcombathelper\\data\\testdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E5101A-2DBA-4738-9A03-F079F222344C}|DndModels\\DndModels.csproj|c:\\source\\dndtool\\dndmodels\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E5101A-2DBA-4738-9A03-F079F222344C}|DndModels\\DndModels.csproj|solutionrelative:dndmodels\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFA07402-BF9A-4EE0-ADA5-5E24FD0F7195}|DndCombatHelper\\DndCombatHelper.csproj|c:\\source\\dndtool\\dndcombathelper\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EFA07402-BF9A-4EE0-ADA5-5E24FD0F7195}|DndCombatHelper\\DndCombatHelper.csproj|solutionrelative:dndcombathelper\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestData.cs",
+              "DocumentMoniker": "C:\\source\\DndTool\\DndCombatHelper\\Data\\TestData.cs",
+              "RelativeDocumentMoniker": "DndCombatHelper\\Data\\TestData.cs",
+              "ToolTip": "C:\\source\\DndTool\\DndCombatHelper\\Data\\TestData.cs",
+              "RelativeToolTip": "DndCombatHelper\\Data\\TestData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T08:19:14.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enemies.razor",
+              "DocumentMoniker": "C:\\source\\DndTool\\DndCombatHelper\\Components\\Pages\\Enemies.razor",
+              "RelativeDocumentMoniker": "DndCombatHelper\\Components\\Pages\\Enemies.razor",
+              "ToolTip": "C:\\source\\DndTool\\DndCombatHelper\\Components\\Pages\\Enemies.razor",
+              "RelativeToolTip": "DndCombatHelper\\Components\\Pages\\Enemies.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-17T08:18:07.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Npc.cs",
+              "DocumentMoniker": "C:\\source\\DndTool\\DndModels\\Npc.cs",
+              "RelativeDocumentMoniker": "DndModels\\Npc.cs",
+              "ToolTip": "C:\\source\\DndTool\\DndModels\\Npc.cs",
+              "RelativeToolTip": "DndModels\\Npc.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T08:06:49.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NpcPartial.razor",
+              "DocumentMoniker": "C:\\source\\DndTool\\DndCombatHelper\\Components\\Pages\\NpcPartial.razor",
+              "RelativeDocumentMoniker": "DndCombatHelper\\Components\\Pages\\NpcPartial.razor",
+              "ToolTip": "C:\\source\\DndTool\\DndCombatHelper\\Components\\Pages\\NpcPartial.razor",
+              "RelativeToolTip": "DndCombatHelper\\Components\\Pages\\NpcPartial.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-17T04:00:43.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\source\\DndTool\\DndCombatHelper\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "DndCombatHelper\\Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\source\\DndTool\\DndCombatHelper\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "DndCombatHelper\\Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAGsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-17T04:03:11.568Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
