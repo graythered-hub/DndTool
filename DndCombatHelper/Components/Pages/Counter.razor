@@ -1,0 +1,15 @@
+﻿@page "/counter"
+@rendermode InteractiveServer
+
+<PageTitle>Counter</PageTitle>
+<table>
+    <thead><tr><td>Name</td><td>attributes</td></tr></thead>
+    <tr><td>@ge.Name</td><td><ul>@foreach (var item in ge.attributes){
+    <li>@item.Name</li>
+        }
+</ul></td></tr>
+</table>
+
+@code {
+    GenericEnemy ge = new GenericEnemy();
+}
