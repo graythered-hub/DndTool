@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jdgra\\source\\repos\\DndTool\\DndModels\\DndModels.csproj": {}
+    "C:\\source\\DndTool\\DndModels\\DndModels.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jdgra\\source\\repos\\DndTool\\DndModels\\DndModels.csproj": {
+    "C:\\source\\DndTool\\DndModels\\DndModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jdgra\\source\\repos\\DndTool\\DndModels\\DndModels.csproj",
+        "projectUniqueName": "C:\\source\\DndTool\\DndModels\\DndModels.csproj",
         "projectName": "DndModels",
-        "projectPath": "C:\\Users\\jdgra\\source\\repos\\DndTool\\DndModels\\DndModels.csproj",
+        "projectPath": "C:\\source\\DndTool\\DndModels\\DndModels.csproj",
         "packagesPath": "C:\\Users\\jdgra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jdgra\\source\\repos\\DndTool\\DndModels\\obj\\",
+        "outputPath": "C:\\source\\DndTool\\DndModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

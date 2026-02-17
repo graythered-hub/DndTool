@@ -9,3 +9,15 @@ C:\Users\jdgra\source\repos\DndTool\DndModels\obj\Debug\net8.0\DndModels.dll
 C:\Users\jdgra\source\repos\DndTool\DndModels\obj\Debug\net8.0\refint\DndModels.dll
 C:\Users\jdgra\source\repos\DndTool\DndModels\obj\Debug\net8.0\DndModels.pdb
 C:\Users\jdgra\source\repos\DndTool\DndModels\obj\Debug\net8.0\ref\DndModels.dll
+C:\source\DndTool\DndModels\bin\Debug\net8.0\DndModels.deps.json
+C:\source\DndTool\DndModels\bin\Debug\net8.0\DndModels.dll
+C:\source\DndTool\DndModels\bin\Debug\net8.0\DndModels.pdb
+C:\source\DndTool\DndModels\obj\Debug\net8.0\DndModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\DndTool\DndModels\obj\Debug\net8.0\DndModels.AssemblyInfoInputs.cache
+C:\source\DndTool\DndModels\obj\Debug\net8.0\DndModels.AssemblyInfo.cs
+C:\source\DndTool\DndModels\obj\Debug\net8.0\DndModels.csproj.CoreCompileInputs.cache
+C:\source\DndTool\DndModels\obj\Debug\net8.0\DndModels.sourcelink.json
+C:\source\DndTool\DndModels\obj\Debug\net8.0\DndModels.dll
+C:\source\DndTool\DndModels\obj\Debug\net8.0\refint\DndModels.dll
+C:\source\DndTool\DndModels\obj\Debug\net8.0\DndModels.pdb
+C:\source\DndTool\DndModels\obj\Debug\net8.0\ref\DndModels.dll

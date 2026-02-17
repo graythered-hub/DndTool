@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tZmnDmBUOkQ=",
+  "dgSpecHash": "LOl2fdqXpes=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jdgra\\source\\repos\\DndTool\\DndCombatHelper\\DndCombatHelper.csproj",
+  "projectFilePath": "C:\\source\\DndTool\\DndCombatHelper\\DndCombatHelper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jdgra\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\jdgra\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
