@@ -1,8 +1,53 @@
-﻿<h3>@NpcToShow.Name</h3>
-
-AC: @NpcToShow.AC
+﻿<h2>@Npc.Name</h2>
+<i>@Npc.Size @Npc.CreatureType, @Npc.Alignment</i>
+<div class="container" style="background-color:lightsteelblue">
+    <div class="row" >
+        <div class="col-2">
+            <b>AC :</b> @Npc.AC
+        </div>
+        <div class="col-2">
+            Initiative: @Npc.InitiativeBonus
+        </div>
+    </div>
+    <div class="row">
+        <div>
+            HP : @Npc.MaxHP
+        </div>
+    </div>
+    <div class="row">
+        <div>
+            Speed : @Npc.MovementSpeeds            
+        </div>
+    </div>
+    <hr />
+</div>
+<div class="container" style="background-color:lightsteelblue">
+    <div class="row">
+        <div>
+            Saving Throws
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            STR
+        </div>
+        <div class="col-2">
+            @Npc.StrSave
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            DEX
+        </div>
+        <div class="col-2">
+            @Npc.DexSave
+        </div>
+    </div>
+</div>
 
 @code {
     [Parameter]
-    public Npc NpcToShow { get; set; }
+    public Npc Npc { get; set; }
+
+
 }

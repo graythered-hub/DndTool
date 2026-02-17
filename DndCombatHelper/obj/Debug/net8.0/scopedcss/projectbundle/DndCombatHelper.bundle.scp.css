@@ -105,6 +105,9 @@ main[b-qmjpb85kw3] {
     background-color: gray
 }
 
+.parchment[b-qmjpb85kw3] {
+    background-color: #926125;
+}
 /* /Components/Layout/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-jtl6fnd4a9] {
     appearance: none;
