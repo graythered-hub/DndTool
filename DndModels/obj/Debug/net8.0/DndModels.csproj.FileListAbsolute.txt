@@ -1,0 +1,11 @@
+C:\Users\jdgra\source\repos\DndTool\DndModels\bin\Debug\net8.0\DndModels.deps.json
+C:\Users\jdgra\source\repos\DndTool\DndModels\bin\Debug\net8.0\DndModels.dll
+C:\Users\jdgra\source\repos\DndTool\DndModels\bin\Debug\net8.0\DndModels.pdb
+C:\Users\jdgra\source\repos\DndTool\DndModels\obj\Debug\net8.0\DndModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jdgra\source\repos\DndTool\DndModels\obj\Debug\net8.0\DndModels.AssemblyInfoInputs.cache
+C:\Users\jdgra\source\repos\DndTool\DndModels\obj\Debug\net8.0\DndModels.AssemblyInfo.cs
+C:\Users\jdgra\source\repos\DndTool\DndModels\obj\Debug\net8.0\DndModels.csproj.CoreCompileInputs.cache
+C:\Users\jdgra\source\repos\DndTool\DndModels\obj\Debug\net8.0\DndModels.dll
+C:\Users\jdgra\source\repos\DndTool\DndModels\obj\Debug\net8.0\refint\DndModels.dll
+C:\Users\jdgra\source\repos\DndTool\DndModels\obj\Debug\net8.0\DndModels.pdb
+C:\Users\jdgra\source\repos\DndTool\DndModels\obj\Debug\net8.0\ref\DndModels.dll

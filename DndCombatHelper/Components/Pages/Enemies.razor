@@ -1,0 +1,118 @@
+﻿@page "/enemies"
+@rendermode InteractiveServer
+
+<PageTitle>Enemies</PageTitle>
+
+<h3>Enemies</h3>
+   <div class="row">
+       <div class="col-7">
+           <div class="card">
+               <div class="card-header">
+                   <label for="NameSearchBox">Search by Name</label>
+                   <input title="Search by Name" type="search" @bind="nameFilter" @bind:event="oninput" id="NameSearchBox" />
+               </div>
+               <div class="card-body">
+                <QuickGrid Items="filteredNpcs" Theme="test">
+                    <PropertyColumn Property="@(p => p.Name)" Sortable="true"> 
+                        <ColumnOptions>
+                            <input type="search" @bind="nameFilter" @bind:event="oninput" />
+                        </ColumnOptions>
+                    </PropertyColumn>>
+
+                    <PropertyColumn Property="@(p => p.Description)" Sortable="true" />
+                    <PropertyColumn Property="@(p => p.AC)" Sortable="true" />
+                    <PropertyColumn Property="@(p => p.MaxHP)" Sortable="true" />
+                        <TemplateColumn Title="Action">
+                        <button @onclick="@(() => Delete(context))"
+                                class="btn btn-info">Delete</button>
+                        <button @onclick="@(() => ShowNpcInfo(context))"
+                                class="btn btn-info">
+                            More Info
+                        </button>                        
+                    </TemplateColumn>
+                </QuickGrid>
+               </div>
+      
+        </div>
+        
+       </div>
+       <div class="col-5" hidden="@HideNpc">
+           This is where enemy info will show up on highlight.
+           <NpcPartial NpcToShow="@Enemy" />
+       </div>
+   </div>
+
+
+  
+@code {
+    PaginationState pagination = new PaginationState { ItemsPerPage = 10 };
+
+    private string nameFilter = string.Empty;
+
+    List<Npc> tempList = new List<Npc>();
+
+    IQueryable<Npc> enemies = TestData.GetNpcs();
+
+    IQueryable<Npc> filteredNpcs { get
+        {
+            IQueryable<Npc> results = enemies;
+            if(!string.IsNullOrEmpty(nameFilter))
+            {
+                results = results.Where(i => !string.IsNullOrEmpty(i.Name) && i.Name.Contains(nameFilter));
+            }
+            return results;
+
+        }  
+    }
+
+    private Npc Enemy = new Npc();
+
+    private bool HideNpc { get; set; } = true;
+
+    protected override void OnInitialized()
+    {
+        Enemy ??= enemies.ToList()[0];
+    }
+
+    private void AddEnemyToList()
+    {
+        enemies.Append(Enemy);
+        Enemy = new Npc();
+        StateHasChanged();
+    }
+
+    private void ToggleAddEnemy()
+    {
+        HideNpc = !HideNpc;
+        StateHasChanged();
+    }
+
+    void Delete(Npc npc)
+    {
+        tempList = enemies.ToList();
+        tempList.Remove(npc);
+        enemies = tempList.AsQueryable();
+        tempList = new List<Npc>();
+    }
+
+    private void ShowNpcInfo(Npc item)
+    {
+        if (null == Enemy)
+        {
+            Enemy = item;
+            ToggleAddEnemy();
+        }
+        else if(item != Enemy)
+        {
+            Enemy = item;
+            HideNpc = false;
+
+        }
+        else
+        {
+
+            ToggleAddEnemy();
+        }
+
+    }
+ }
