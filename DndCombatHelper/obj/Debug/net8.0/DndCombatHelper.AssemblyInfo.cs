@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DndCombatHelper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83d0da65940d80e3e28351c879b0562989b35ccf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da714bb7fd256335b7d41a0dfcae884fe37905f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("DndCombatHelper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DndCombatHelper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
